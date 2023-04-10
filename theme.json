@@ -10,7 +10,7 @@
         {
           "name": "Natural",
           "slug": "natural",
-          "shadow": "6px 6px 9px rgba(0, 0, 0, 0.2)"
+          "shadow": "0px 1px 4px 0px rgba(0, 0, 0, 0.15)"
         },
         {
           "name": "Crisp",
@@ -212,6 +212,7 @@
     },
     "elements": {
       "button": {
+        "shadow": "var:preset|shadow|natural",
         "color": {
           "background": "var:preset|color|primary",
           "text": "var:preset|color|secondary"
