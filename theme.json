@@ -212,6 +212,9 @@
     },
     "elements": {
       "button": {
+        "border": {
+          "radius": "8px"
+        },
         "shadow": "var:preset|shadow|natural",
         "color": {
           "background": "var:preset|color|primary",
