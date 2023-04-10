@@ -20,7 +20,7 @@
       ]
     },
     "layout": {
-      "contentSize": "600px",
+      "contentSize": "800px",
       "wideSize": "1200px"
     },
     "color": {
@@ -198,9 +198,9 @@
       "blockGap": "30px",
       "padding": {
         "top": "2rem",
-        "right": "2rem",
+        "right": "1.2rem",
         "bottom": "2rem",
-        "left": "2rem"
+        "left": "1.2rem"
       }
     },
     "blocks": {
