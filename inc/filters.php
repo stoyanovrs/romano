@@ -35,4 +35,4 @@ add_filter(
 );
 
 // Disable XML-RPC
-add_filter( 'xmlrpc_enabled', '__return_false' );
+// add_filter( 'xmlrpc_enabled', '__return_false' );
