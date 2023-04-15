@@ -65,3 +65,7 @@ add_action( 'init', function () {
 	// Remove filter of the oEmbed result before any HTTP requests are made.
 	remove_filter( 'pre_oembed_result', 'wp_filter_pre_oembed_result', 10 );
 }, 9999 );
+
+
+// Remove WP Version
+remove_action('wp_head', 'wp_generator');
