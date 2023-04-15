@@ -21,12 +21,12 @@ add_action( 'init', function () {
 	} );
 
 	// Remove from dns-prefetch.
-	// add_filter( 'wp_resource_hints', function ( $urls, $relation_type ) {
-	// 	if ( 'dns-prefetch' === $relation_type ) {
-	// 		$emoji_svg_url = apply_filters( 'emoji_svg_url', 'https://s.w.org/images/core/emoji/2/svg/' );
-	// 		$urls          = array_diff( $urls, array( $emoji_svg_url ) );
-	// 	}
+	add_filter( 'wp_resource_hints', function ( $urls, $relation_type ) {
+		if ( 'dns-prefetch' === $relation_type ) {
+			$emoji_svg_url = apply_filters( 'emoji_svg_url', 'https://s.w.org/images/core/emoji/2/svg/' );
+			$urls          = array_diff( $urls, array( $emoji_svg_url ) );
+		}
 
-	// 	return $urls;
-	// }, 10, 2 );
+		return $urls;
+	}, 10, 2 );
 } );
