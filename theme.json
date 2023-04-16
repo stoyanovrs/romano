@@ -211,7 +211,7 @@
       },
       "core/group": {
         "variations": {
-          "romano-box-shadow": {
+          "box-shadow": {
             "shadow": "var:preset|shadow|natural"
           }
         }
