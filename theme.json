@@ -212,7 +212,7 @@
       "core/group": {
         "variations": {
           "romano-box-shadow": {
-            "shadow": "var(--wp--preset--shadow--natural)"
+            "shadow": "var:preset|shadow|natural"
           }
         }
       }
@@ -304,5 +304,16 @@
     }
   },
   "customTemplates": {},
-  "templateParts": {}
+  "templateParts": [
+    {
+      "name": "header",
+      "title": "Header",
+      "area": "header"
+    },
+    {
+      "name": "footer",
+      "title": "Footer",
+      "area": "footer"
+    }
+  ]
 }
