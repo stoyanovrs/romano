@@ -208,6 +208,9 @@
         "typography": {
           "fontSize": "var:preset|font-size|medium"
         }
+      },
+      "core/group": {
+        "shadow": "var:preset|shadow|natural"
       }
     },
     "elements": {
