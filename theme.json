@@ -212,7 +212,7 @@
       "core/group": {
         "variations": {
           "box-shadow": {
-            "shadow": "var:preset|shadow|natural"
+            "shadow": "0px 1px 4px 0px rgba(0, 0, 0, 0.15)"
           }
         }
       }
