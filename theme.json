@@ -210,7 +210,11 @@
         }
       },
       "core/group": {
-        "shadow": "var:preset|shadow|natural"
+        "variations": {
+          "romano-box-shadow": {
+            "shadow": "var:preset|shadow|natural"
+          }
+        }
       }
     },
     "elements": {
