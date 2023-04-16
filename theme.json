@@ -208,19 +208,6 @@
         "typography": {
           "fontSize": "var:preset|font-size|medium"
         }
-      },
-      "core/group": {
-        "variations": {
-          "romano-box-shadow": {
-            "border": {
-              "bottom": {
-                "width": "1px",
-                "color": "red",
-                "style": "solid"
-              }
-            }
-          }
-        }
       }
     },
     "elements": {
