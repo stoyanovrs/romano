@@ -212,7 +212,13 @@
       "core/group": {
         "variations": {
           "romano-box-shadow": {
-            "shadow": "var:preset|shadow|natural"
+            "border": {
+              "bottom": {
+                "width": "1px",
+                "color": "red",
+                "style": "solid"
+              }
+            }
           }
         }
       }
