@@ -28,7 +28,6 @@ function romano_register_block_styles() {
 		array(
 			'name'  => 'romano-navigation-button',
 			'label' => __( 'Button style', 'romano' ),
-			'style_handle' => 'myguten-style',
 		)
 	);
 
@@ -45,6 +44,9 @@ function romano_register_block_styles() {
 		array(
 			'name'  => 'romano-box-shadow',
 			'label' => __( 'Box shadow', 'romano' ),
+			'inline_style' => '.is-style-romano-box-shadow {  
+	   			box-shadow: var(--wp--preset--shadow--natural);
+        }'
 		)
 	);
 
