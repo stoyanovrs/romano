@@ -5,7 +5,7 @@
     "appearanceTools": true,
     "useRootPaddingAwareAlignments": true,
     "shadow": {
-      "defaultPresets": false,
+      "defaultPresets": true,
       "presets": [
         {
           "name": "Natural",
