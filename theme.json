@@ -209,7 +209,13 @@
           "fontSize": "var:preset|font-size|medium"
         }
       },
-      "core/group": {}
+      "core/group": {
+        "variations": {
+          "romano-box-shadow": {
+            "shadow": "var(--wp--preset--shadow--natural)"
+          }
+        }
+      }
     },
     "elements": {
       "button": {
