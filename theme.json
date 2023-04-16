@@ -5,7 +5,7 @@
     "appearanceTools": true,
     "useRootPaddingAwareAlignments": true,
     "shadow": {
-      "defaultPresets": true,
+      "defaultPresets": false,
       "presets": [
         {
           "name": "Natural",
@@ -207,6 +207,13 @@
       "core/site-title": {
         "typography": {
           "fontSize": "var:preset|font-size|medium"
+        }
+      },
+      "core/group": {
+        "variations": {
+          "romano-box-shadow": {
+            "shadow": "var:preset|shadow|natural"
+          }
         }
       }
     },

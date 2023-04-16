@@ -28,6 +28,7 @@ function romano_register_block_styles() {
 		array(
 			'name'  => 'romano-navigation-button',
 			'label' => __( 'Button style', 'romano' ),
+			'style_handle' => 'myguten-style',
 		)
 	);
 
