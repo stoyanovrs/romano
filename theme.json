@@ -211,11 +211,7 @@
       },
       "core/group": {
         "variations": {
-          "romano-box-shadow": {
-            "color": {
-              "text": "red"
-            }
-          }
+          "romano-box-shadow": {}
         }
       }
     },
