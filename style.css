@@ -18,7 +18,14 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 html {
   scroll-behavior: smooth;
 }
-
+header {
+  position: sticky;
+  left: 0;
+  top: 0;
+  background: var(--wp--preset--color--background);
+  padding: 1rem;
+  z-index: 100;
+}
 @media screen and (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
